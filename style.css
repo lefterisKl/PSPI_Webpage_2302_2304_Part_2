@@ -1,0 +1,237 @@
+/* General for the whole page, the header and the menu */
+html {
+	font-size:10px;
+	font-family:'Verdana',sans-serif;
+}
+
+body {
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("./images/background.jpg");
+	background-attachment: fixed;
+
+}
+
+header img{
+    display: block;
+    width:100%;
+    height:auto;
+	border:solid thin black;
+}
+
+nav {
+    background-color:orange;
+    border:solid thin black;
+    width:100%;
+	
+}
+
+nav ul {
+    list-style-type:none;
+    width:inherit;
+    padding:0;
+    margin:0;
+    border:0;
+    font-size:0; /* To eliminate spaces between inline blocks */
+}
+
+nav h1{
+	display:none;
+}
+
+nav ul li{
+    font-size:2rem; /* Reset the font size */
+    display:inline-block;
+    border-left:solid thin black;
+    width:19.86%;
+    width:14%
+}
+
+nav ul li a{
+    display:inline-block;
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    width:100%;
+}
+
+nav ul li a:hover{
+    color:black;
+    background-color:darkorange;
+}
+
+
+
+/* The following 5 are to make the active page link 
+ * in the main menu darker than the others*/
+#workPage nav ul li#work, #workPage nav ul li#work a:hover{
+	background-color:orangered;
+}
+
+#indexPage nav ul li#main, #indexPage nav ul li#main a:hover{
+	background-color:orangered;
+}
+
+#bioPage nav ul li#bio, #bioPage nav ul li#bio a:hover{
+	background-color:orangered;
+}
+
+#imagesPage nav ul li#images, #imagesPage nav ul li#images a:hover{
+	background-color:orangered;
+}
+
+#lecturesPage nav ul li#lectures, #lecturesPage nav ul li#lectures a:hover{
+	background-color:orangered;
+}
+#quizPage nav ul li#quiz, #quizPage nav ul li#quiz a:hover {
+    background-color:orangered;
+}
+
+#commentsPage nav ul li#comments, #commentsPage nav ul li#comments a:hover  {
+    background-color:orangered;
+}
+
+
+
+/* For the image in the main page */
+main{
+	overflow:hidden; 
+}
+
+main img{
+    float:right;
+    width:35%;
+    height:auto;
+	padding-left:1%;
+}
+
+
+
+
+/* For the content of each page */
+main, article,#quiz-form{
+   	padding-top:1%;
+	padding-right:3%;
+	padding-left:3%;
+	padding-bottom:1%;
+	line-height:1.5em;
+    background-color:darkslategray;
+    color:white;
+	font-size:1.7rem; 
+    margin-bottom:2%;
+}
+
+
+footer{
+    border-top:solid white thin;
+    text-align:center;
+}
+
+
+/* For images */
+figure {
+    width: 100%;
+	display:inline-block;
+	max-width:35%;
+	text-align:center;
+	vertical-align:top;
+}
+
+figure figcaption{
+    text-align:center;
+}
+
+figure img {
+    border:double medium black;
+	width:100%;
+	max-width:100%;
+}
+
+/* Headers */
+h1{
+	display:none;
+}
+
+main h1{
+	display:block;
+	font-size:2.5rem;
+}
+
+h2{
+	font-size:2.5rem;
+}
+
+
+/* For links */
+article a{
+    color:orange;
+}
+
+article a:visited{
+    color: orangered;
+}
+
+
+
+/* For videos */
+#videos{
+	text-align:center;
+}
+
+iframe{
+	margin-bottom:5%;
+	border:0px;
+}
+
+textarea{
+    display:block;
+    width:100%;
+}
+
+/* Comments section */
+
+#comment-form{
+	margin-top : 5%;
+	padding-bottom : 5%;
+	border-bottom : solid thin black;
+}
+
+.comment {
+	padding-top : 1%;
+    border-bottom:solid thin black;
+    text-align:left;
+    background-color:darkslategray;
+	overflow:hidden;
+}
+
+.comment-email {
+   float : right;
+}
+
+#paginator {
+	text-align: center;
+	list-style-type:none;
+}
+#paginator li{
+	display:inline;
+	margin-right : 2%;
+}
+
+/* Current comment page.. */
+#currentPage{
+    color:orangered!important;
+}
+
+#paginator a{
+    color:orange;
+    text-decoration:none;
+}
+
+#paginator a:visited{
+    color:orange;
+}
+
+article{
+	overflow:hidden;
+}

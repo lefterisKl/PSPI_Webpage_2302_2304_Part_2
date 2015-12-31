@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="el" id="quizPage">
+
+	<head>
+
+		<meta charset="utf-8"/>
+		<meta name="description" content="A page consisting of a quiz with some questions about Edsger Dijstra">
+		<title>Quiz - Edsger Dijkstra</title>
+		<link rel="icon" type="image/png" href="./images/mortarboard-32-1925.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="./JS/quiz.js"></script>
+
+	</head>
+	<body>
+       
+		<article>
+
+			<form id="quiz-form" >
+
+				<h3 id="resultHeader" style="visibility:hidden;">Answer Correctness</h3>
+
+				Ερώτηση:
+
+				<p id="question"> </p>
+
+				<ol id="answers">
+					<li> <label><input id="radio1" type="radio" name ="answer"> </label> </li>
+					<li> <label><input id="radio2" type="radio" name ="answer"> </label> </li>
+					<li> <label><input id="radio3" type="radio" name ="answer"> </label> </li>
+				</ol>
+
+				<input type="button" id="confirmButton" name="confirm" value="Next">
+				<input type="button" id="repeat" value="Επανεκκίνηση του quiz">
+				
+		  
+			</form>
+
+		</article>
+		
+	</body>
+
+     <script type="text/javascript" src="./JS/loadHeader.js"></script>
+
+</html>

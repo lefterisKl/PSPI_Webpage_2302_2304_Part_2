@@ -18,3 +18,6 @@ PSPI_Webpage_2302_2304_Part_2
 
 
 Git repository με τα αρχεία του ιστότοπου: https://github.com/lefterisKl/PSPI_Webpage_2302_2304_Part_2
+
+
+Το αρχείο που δημιουργεί την βάση δεδομένων και τον χρήση ειναι το  SQL/init.sql στο git repository.
